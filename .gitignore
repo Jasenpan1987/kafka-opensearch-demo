@@ -1,0 +1,11 @@
+.env
+node_modules/
+dist
+coverage
+entities/
+.webpack
+.eslintcache
+
+#mac only
+.DS_Store
+snowflake.log

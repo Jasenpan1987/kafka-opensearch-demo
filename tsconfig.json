@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "module": "commonjs",
+    "sourceMap": true,
+    "lib": ["esnext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "es2017"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

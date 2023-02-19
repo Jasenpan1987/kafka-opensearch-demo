@@ -1,0 +1,12 @@
+{
+  "verbose": true,
+  "debug": false,
+  "exec": "npx ts-node -r tsconfig-paths/register -r dotenv/config --files ./src/index.ts",
+  "ignore": ["src/**/__tests__/*"],
+  "events": {
+    "start": "npm run lint",
+    "restart": "npm run lint"
+  },
+  "watch": ["./src"],
+  "ext": "ts"
+}
